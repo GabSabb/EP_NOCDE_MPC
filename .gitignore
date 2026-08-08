@@ -1,0 +1,28 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+
+# Generated MPC and EnergyPlus output
+outputs/*
+!outputs/.gitkeep
+
+# Local JAX/XLA caches
+.jax_cache/
+.xla_cache/
