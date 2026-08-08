@@ -1,0 +1,11 @@
+# Install the correct JAX build for the target CPU/GPU platform first if needed.
+diffrax==0.7.0
+equinox==0.13.2
+jax==0.9.0
+numpy==2.4.1
+pandas==3.0.0
+requests==2.33.0
+scikit-learn==1.8.0
+
+# Google Research Trajax; the package named "trajax" on PyPI is unrelated.
+trajax @ git+https://github.com/google/trajax.git
