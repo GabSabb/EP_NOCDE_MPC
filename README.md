@@ -5,7 +5,6 @@ EnergyPlus model of the MEEB residence. A trained NODE/NCDE model predicts the
 thermal and heating response of ten controlled zones. At each 15-minute
 boundary, the controller optimizes a six-hour setpoint trajectory and applies
 its first control action to EnergyPlus.
-
 ## Repository layout
 
 ```text
@@ -109,4 +108,9 @@ Repository paths can be overridden without modifying the file:
 | `MEEB_MODEL_PATH` | Serialized Equinox model |
 | `MEEB_OUTPUT_DIR` | Generated output directory |
 | `MEEB_LEGACY_BIAS_LOG_DIR` | Optional previous-run logs for bias correction |
+
+## Citation
+
+Gabriel Sabbagh (2026) Modélisation thermique multizone de résidences par équations différentielles neuronales
+[Ph.D. thesis]
 
