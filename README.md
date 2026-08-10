@@ -111,6 +111,7 @@ Repository paths can be overridden without modifying the file:
 
 ## Citation
 
-Gabriel Sabbagh (2026) Modélisation thermique multizone de résidences par équations différentielles neuronales
-[Ph.D. thesis]
+If you use any piece of the software of this repository please reference:
+Gabriel Sabbagh, (2026), Modélisation thermique multizone de résidences par équations différentielles neuronales
+[Ph.D. thesis].
 
