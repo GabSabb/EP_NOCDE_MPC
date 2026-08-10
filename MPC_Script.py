@@ -735,7 +735,7 @@ MODEL_DIR = REPOSITORY_ROOT / "models"
 # IDF Path
 IDF_PATH = os.environ.get(
     "MEEB_IDF_PATH",
-    str(ENERGYPLUS_ASSET_DIR / "MEEB2013_0deg.idf"),
+    str(ENERGYPLUS_ASSET_DIR / "MEEB_building_model.idf"),
 )
 
 # EnergyPlus still needs an EPW file to start a weather-file RunPeriod.
@@ -1319,7 +1319,7 @@ def find_schedule_file_names(idf_text):
 def copy_remaining_schedule_files(idf_text, original_idf_path, work_dir):
     """
     Copy external Schedule:File dependencies beside the working IDF. This
-    IDF still needs FoundationsBD2013.txt after the thermostat setpoint schedules
+    IDF still needs Foundations_boundary_conditions.txt after the thermostat setpoint schedules
     are converted to Schedule:Constant.
     """
     original_dir = Path(original_idf_path).parent
